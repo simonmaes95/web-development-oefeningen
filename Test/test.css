@@ -1,0 +1,13 @@
+nav {
+    display: flex;
+    background-color: lightblue;
+}
+
+nav a {
+    padding: 10px;
+    background-color: lightgray;
+}
+
+nav a:hover {
+    background-color: azure;
+}

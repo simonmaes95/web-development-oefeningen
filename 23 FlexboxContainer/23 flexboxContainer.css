@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 200px;
+    background: lightblue;
+}
+
+.container div {
+    background-color: silver;
+    margin: 2px;
+    padding: 5px;
+    height: 50px;
+}

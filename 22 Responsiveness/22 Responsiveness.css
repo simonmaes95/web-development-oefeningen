@@ -1,0 +1,76 @@
+body {
+    background: lightgray;
+}
+
+header {
+    width: 100%;
+    max-width: 1000px;
+    background: yellow;
+}
+
+nav {
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    display: block; /* Doen om de verdere opmaak te vereenvoudigen */
+    float: left; /* Komen naast elkaar te staan */
+    font-size: 35pt;
+    width: 200px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+main {
+    clear: both; /* Komt onder navigatiebalk te staan */
+}
+
+article {
+    float: left; /* Articles komt naast elkaar te staan */
+    background: lightsalmon;
+    border: solid 3px black;
+    padding: 5px;
+    font-size: 20pt;
+    width: 45%; /* 50% is net iets te groot */
+}
+
+@media screen and (max-width: 1020px) {
+    header {
+        width: 100%;
+        background: orange;
+    }
+
+    article {
+        clear: both;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    header {
+        width: 100%;
+        background: red;
+}
+
+    nav a {
+        clear: both; /* Komen onder elkaar te staan */
+        width: 100%; /* Iedere link neemt de volledige breedte van het scherm in => komen in het midden te staan door code bovenaan*/
+    }
+
+    article {
+        font-size: 10pt;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    header {
+        width: 100%;
+        background: green;
+}
+
+    nav a {
+        clear: both;
+        width: 100%;
+    }
+}

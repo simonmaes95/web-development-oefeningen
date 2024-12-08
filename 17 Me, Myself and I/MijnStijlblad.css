@@ -1,0 +1,62 @@
+body {
+    font-family: Verdana;
+    background: lightblue;
+}
+
+nav {
+    background: lightsalmon;
+    padding: 10px;
+}
+
+main {
+    height: 420px;
+}
+
+aside {
+    float: left;
+    height: 420px;
+    margin-right: 20px;
+}
+
+section {
+    padding: 10px;
+}
+
+footer {
+    background: lightsalmon;
+    padding: 10px;
+    text-align: center;
+    font-size: 12pt;
+    clear: both;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-bottom: -10px;
+}
+
+img {
+    width: 200px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    background: lightsalmon;
+    border: solid 2px black;
+    padding: 5px;
+}
+
+td {
+    border: solid 1px black;
+    padding: 5px;
+    text-align: center;
+}
+
+p {
+    line-height: 20px;
+}

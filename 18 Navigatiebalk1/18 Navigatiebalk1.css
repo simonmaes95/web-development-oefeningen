@@ -1,0 +1,64 @@
+ul li {
+    background: #000;
+    list-style: none;
+    height: 44px;
+    padding: 10px 5px;
+    float: left;
+}
+
+ul li a {
+    display: block;
+    width: 175px;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    line-height: 53px;
+    border-bottom: solid 4px #636393;
+}
+
+li:nth-child(1) a {
+    border-color: #636393;
+}
+
+li:nth-child(2) a {
+    border-color: #B5222D;
+}
+
+li:nth-child(3) a {
+    border-color: #D4953C;
+}
+
+li:nth-child(4) a {
+    border-color: #609491;
+}
+
+li:nth-child(5) a {
+    border-color: #87A248;
+}
+
+li:nth-child(1) a:hover {
+    border-bottom: solid 35px #636393;
+    height: 9px;
+}
+
+li:nth-child(2) a:hover {
+    border-bottom: solid 35px #B5222D;
+    height: 9px;
+}
+
+li:nth-child(3) a:hover {
+    border-bottom: solid 35px #D4953C;
+    height: 9px;
+}
+
+li:nth-child(4) a:hover {
+    border-bottom: solid 35px #609491;
+    height: 9px;
+}
+
+li:nth-child(5) a:hover {
+    border-bottom: solid 35px #87A248;
+    height: 9px;
+}

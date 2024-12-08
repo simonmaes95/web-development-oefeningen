@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Hoofding (banner)*/
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+#banner {
+    height: 90%;
+}
+
+/*Navigatiebalk*/
+nav {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px white solid;
+}
+
+nav a {
+    display: block;
+    font-size: 18pt;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #333333;
+    border-radius: 20px;
+}
+
+/*Main + Sections*/
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.faction-box {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border-radius: 35px;
+    margin: 20px 0;
+}
+
+.faction-box h1 {
+    text-align: center;
+}
+
+.faction-box figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+.logo {
+    width: 90%;
+}
+
+.faction-box ol {
+    margin-top: 50px;
+}
+
+.faction-box table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/*Themakleuren van de sections via id's*/
+#galactic-empire {
+    background-color: #BC1E22;
+}
+
+#separatist-alliance {
+    background-color: #700C15;
+}
+
+#galactic-republic {
+    background-color: #2E557C;
+}
+
+#rebel-alliance {
+    background-color: #DD4E1E;
+}
+
+/*Footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    padding: 15px;
+    font-size: 15pt;
+    font-weight: bold;
+}

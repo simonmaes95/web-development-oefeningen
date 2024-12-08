@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Tahoma;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #9E8FB2;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #011627;
+    color: #fff;
+}
+
+nav a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    background: #A7ACD9;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    padding: 20px;
+    margin-left: 5px;
+}
+
+figure {
+    width: 100%;
+    margin: 0;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+    margin-left: 10px;
+    background: #D2CEC6;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #011627;
+    color: #fff;
+}
+
+#boerderij-foto {
+    width: 100%;
+}

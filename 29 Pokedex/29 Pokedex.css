@@ -1,0 +1,137 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /*TWIJFELS*/
+    width: 950px;
+    margin: 0 auto;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+    background-color: #e5e5e5;
+}
+
+/*KADERS*/
+article {
+    display: flex;
+    width: 300px;
+    height: 120px;
+    margin: 10px 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background: white;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+/*LINKERKANT KADER*/
+.left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+/*RECHTERKANT KADER*/
+.right {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+/*LINKSBOVEN KADER*/
+.top-left {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 70%;
+}
+
+.top-left img {
+    height: 100%;
+}
+
+/*LINKSONDER KADER*/
+.bottom-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+
+.bottom-left p {
+    padding: 2px 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 10pt;
+}
+
+/*RECHTSBOVEN KADER*/
+.top-right {
+    font-weight: bold;
+}
+
+/*RECHTSONDER KADER*/
+.bottom-right {
+}
+
+/*TYPINGS*/
+/*FIRE*/
+.fire {
+    color: white;
+    background: red;
+}
+
+/*GRASS*/
+.grass {
+    color: white;
+    background: green;
+}
+
+/*WATER*/
+.water {
+    color: white;
+    background: blue;
+}
+
+/*BUG*/
+.bug {
+    color: white;
+    background: #505e28;
+}
+
+/*PSYCHIC*/
+.psychic {
+    color: white;
+    background: #6f2da8;
+}
+
+/*FlYING*/
+.fly {
+    color: white;
+    background: #75BFEC;
+}
+
+.normal {
+    color: white;
+    background: gray;
+}
+
+@media screen and (max-width: 425px) {
+    main {
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    
+    article {
+        width: 95%;
+    }
+}
+
+/*@media screen and (max-width: 768px) {
+    main {
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    article {
+        width: 47%;
+    }
+}*/

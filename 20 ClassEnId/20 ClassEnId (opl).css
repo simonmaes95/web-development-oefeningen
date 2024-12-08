@@ -1,0 +1,18 @@
+section {
+    margin: 20px;
+    padding: 20px;
+}
+
+.cities {
+    background: black;
+    color: white;
+}
+
+.countries {
+    background: lightblue;
+    color: maroon;
+}
+
+#titel {
+    color: red;
+}
